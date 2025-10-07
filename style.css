@@ -1,6 +1,6 @@
 
    body {
-       background: red;
+       background: rgb(31, 140, 230);
        color: navy;
        padding: 10px;
        font-family: arial;
@@ -12,7 +12,7 @@
 
    /* navigation menu */
    nav {
-       background: blue;
+       background: rgb(41, 230, 167);
       margin: 0 auto;
      margin-bottom: 20px;
        display: flex;
@@ -40,7 +40,7 @@
 
    /* main container area beneath menu */
    main {
-       background: yellow;
+       background: greenyellow;
        display: flex;
    }
    .sidebar {
@@ -63,6 +63,32 @@
    h2, h3 {
        margin: 0px;
    }
+/* portfolio styles */
+         .content h1 {
+             color: black;
+         }
+
+         #portfolio {
+             list-style-type: none;
+             padding-left: 0;
+         }
+
+         #portfolio li {
+             background: #fff;
+             padding: 10px;
+             border-radius: 10px;
+             margin-bottom: 10px;
+         }
+
+         #portfolio li:hover {
+             background: #eee;
+         }
+
+         #portfolio a {
+             text-decoration: none;
+             color: #454545;
+         }
+
 
 
 
