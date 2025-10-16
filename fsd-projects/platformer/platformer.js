@@ -42,8 +42,8 @@ $(function () {
     createCollectable("diamond", 900, 30);
     // TODO 4 - Create Cannons
     createCannon("bottom", 300, 300);
-    createCannon("right", 500, 200, 100);
-    createCannon("left", 200, 600, 500);
+    createCannon("right", 500, 2000, 100);
+    createCannon("left", 200, 6000, 500);
 
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
